@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G730" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Note" representedClassName="Note" syncable="YES" codeGenerationType="class">
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <attribute name="cost" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="odometr" optional="YES" attributeType="String"/>
+        <attribute name="photo" optional="YES" attributeType="Binary"/>
+        <attribute name="photosID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="repairCategory" optional="YES" attributeType="String"/>
+        <attribute name="subTitle" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Photos" representedClassName="Photos" parentEntity="Note" syncable="YES" codeGenerationType="class">
+        <attribute name="photoComment" optional="YES" attributeType="String"/>
+        <attribute name="photoDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="photoImage" optional="YES" attributeType="Binary"/>
+        <attribute name="photoTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Probe" representedClassName="Probe" syncable="YES" codeGenerationType="class">
+        <attribute name="titi" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Note" positionX="36" positionY="9" width="128" height="179"/>
+        <element name="Photos" positionX="-18" positionY="0" width="128" height="89"/>
+        <element name="Probe" positionX="9" positionY="81" width="128" height="44"/>
+    </elements>
+</model>
