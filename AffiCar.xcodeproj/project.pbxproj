@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840A941E28BB5C1D0062D7FE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A941D28BB5C1D0062D7FE /* HomeView.swift */; };
+		8453F72628B8C5100054D484 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453F72528B8C5100054D484 /* ImagePicker.swift */; };
+		849451B328BA1E7A0095F31F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849451B228BA1E7A0095F31F /* UserData.swift */; };
+		849451B728BA29450095F31F /* UserDataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849451B628BA29450095F31F /* UserDataAPI.swift */; };
+		849734C028ECE879009EE934 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849734BA28ECE878009EE934 /* Photo+CoreDataProperties.swift */; };
+		849734C128ECE879009EE934 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849734BB28ECE879009EE934 /* Note+CoreDataClass.swift */; };
+		849734C228ECE879009EE934 /* Owner+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849734BC28ECE879009EE934 /* Owner+CoreDataProperties.swift */; };
+		849734C328ECE879009EE934 /* Owner+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849734BD28ECE879009EE934 /* Owner+CoreDataClass.swift */; };
+		849734C428ECE879009EE934 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849734BE28ECE879009EE934 /* Photo+CoreDataClass.swift */; };
+		849734C528ECE879009EE934 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849734BF28ECE879009EE934 /* Note+CoreDataProperties.swift */; };
+		84DBF68B28BC2711006B91DC /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF68A28BC2711006B91DC /* AddNoteView.swift */; };
+		84DBF69228BC9E55006B91DC /* Extensions+colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF69128BC9E55006B91DC /* Extensions+colors.swift */; };
+		84DBF69528BCBE26006B91DC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF69428BCBE26006B91DC /* TabBar.swift */; };
+		84DBF69828BCFD3C006B91DC /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF69728BCFD3B006B91DC /* NotesView.swift */; };
+		84DBF69B28BD0097006B91DC /* NoteImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBF69A28BD0097006B91DC /* NoteImagesView.swift */; };
 		84E665E428B76FCF002AE472 /* AffiCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E665E328B76FCF002AE472 /* AffiCarApp.swift */; };
 		84E665E628B76FCF002AE472 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E665E528B76FCF002AE472 /* ContentView.swift */; };
 		84E665E828B76FD3002AE472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E665E728B76FD3002AE472 /* Assets.xcassets */; };
@@ -16,6 +31,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840A941D28BB5C1D0062D7FE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8453F72528B8C5100054D484 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		849451B228BA1E7A0095F31F /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		849451B628BA29450095F31F /* UserDataAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataAPI.swift; sourceTree = "<group>"; };
+		849734BA28ECE878009EE934 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		849734BB28ECE879009EE934 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		849734BC28ECE879009EE934 /* Owner+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Owner+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		849734BD28ECE879009EE934 /* Owner+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Owner+CoreDataClass.swift"; sourceTree = "<group>"; };
+		849734BE28ECE879009EE934 /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		849734BF28ECE879009EE934 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84DBF68A28BC2711006B91DC /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		84DBF69128BC9E55006B91DC /* Extensions+colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+colors.swift"; sourceTree = "<group>"; };
+		84DBF69428BCBE26006B91DC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		84DBF69728BCFD3B006B91DC /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		84DBF69A28BD0097006B91DC /* NoteImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteImagesView.swift; sourceTree = "<group>"; };
 		84E665E028B76FCF002AE472 /* AffiCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffiCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E665E328B76FCF002AE472 /* AffiCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffiCarApp.swift; sourceTree = "<group>"; };
 		84E665E528B76FCF002AE472 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +66,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840A941C28BB5BF40062D7FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84E665E528B76FCF002AE472 /* ContentView.swift */,
+				840A941D28BB5C1D0062D7FE /* HomeView.swift */,
+				84DBF68A28BC2711006B91DC /* AddNoteView.swift */,
+				84DBF69728BCFD3B006B91DC /* NotesView.swift */,
+				84DBF69C28BD009C006B91DC /* ViewComponents */,
+				84DBF69628BCBE32006B91DC /* Navigation */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		840A941F28BB5D840062D7FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84E665E728B76FD3002AE472 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		840A942028BB5DC30062D7FE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				84E665E328B76FCF002AE472 /* AffiCarApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		840A942128BB5E120062D7FE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				84E665F328B77066002AE472 /* AffiCar.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		840A942228BB5E2C0062D7FE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				849734B928ECE761009EE934 /* CoreData classes */,
+				84E665F128B7703F002AE472 /* DataController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		849451B428BA28DB0095F31F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8453F72528B8C5100054D484 /* ImagePicker.swift */,
+				849451B628BA29450095F31F /* UserDataAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		849451B528BA28FA0095F31F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				840A942128BB5E120062D7FE /* CoreData */,
+				849451B228BA1E7A0095F31F /* UserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		849734B928ECE761009EE934 /* CoreData classes */ = {
+			isa = PBXGroup;
+			children = (
+				849734BB28ECE879009EE934 /* Note+CoreDataClass.swift */,
+				849734BF28ECE879009EE934 /* Note+CoreDataProperties.swift */,
+				849734BD28ECE879009EE934 /* Owner+CoreDataClass.swift */,
+				849734BC28ECE879009EE934 /* Owner+CoreDataProperties.swift */,
+				849734BE28ECE879009EE934 /* Photo+CoreDataClass.swift */,
+				849734BA28ECE878009EE934 /* Photo+CoreDataProperties.swift */,
+			);
+			path = "CoreData classes";
+			sourceTree = "<group>";
+		};
+		84DBF69028BC9E19006B91DC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				84DBF69328BCA047006B91DC /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		84DBF69328BCA047006B91DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84DBF69128BC9E55006B91DC /* Extensions+colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84DBF69628BCBE32006B91DC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				84DBF69428BCBE26006B91DC /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		84DBF69C28BD009C006B91DC /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				84DBF69A28BD0097006B91DC /* NoteImagesView.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
 		84E665D728B76FCF002AE472 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +194,13 @@
 		84E665E228B76FCF002AE472 /* AffiCar */ = {
 			isa = PBXGroup;
 			children = (
-				84E665E328B76FCF002AE472 /* AffiCarApp.swift */,
-				84E665E528B76FCF002AE472 /* ContentView.swift */,
-				84E665E728B76FD3002AE472 /* Assets.xcassets */,
-				84E665F328B77066002AE472 /* AffiCar.xcdatamodeld */,
-				84E665F128B7703F002AE472 /* DataController.swift */,
+				840A942228BB5E2C0062D7FE /* CoreData */,
+				840A942028BB5DC30062D7FE /* Core */,
+				840A941C28BB5BF40062D7FE /* Views */,
+				849451B428BA28DB0095F31F /* Services */,
+				849451B528BA28FA0095F31F /* Models */,
+				84DBF69028BC9E19006B91DC /* Utils */,
+				840A941F28BB5D840062D7FE /* Resources */,
 				84E665E928B76FD3002AE472 /* Preview Content */,
 			);
 			path = AffiCar;
@@ -143,10 +284,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8453F72628B8C5100054D484 /* ImagePicker.swift in Sources */,
 				84E665F528B77067002AE472 /* AffiCar.xcdatamodeld in Sources */,
+				849734C528ECE879009EE934 /* Note+CoreDataProperties.swift in Sources */,
+				84DBF69528BCBE26006B91DC /* TabBar.swift in Sources */,
 				84E665E628B76FCF002AE472 /* ContentView.swift in Sources */,
 				84E665F228B7703F002AE472 /* DataController.swift in Sources */,
+				849451B728BA29450095F31F /* UserDataAPI.swift in Sources */,
+				849451B328BA1E7A0095F31F /* UserData.swift in Sources */,
+				84DBF69828BCFD3C006B91DC /* NotesView.swift in Sources */,
+				84DBF68B28BC2711006B91DC /* AddNoteView.swift in Sources */,
+				840A941E28BB5C1D0062D7FE /* HomeView.swift in Sources */,
+				849734C128ECE879009EE934 /* Note+CoreDataClass.swift in Sources */,
+				84DBF69228BC9E55006B91DC /* Extensions+colors.swift in Sources */,
+				849734C228ECE879009EE934 /* Owner+CoreDataProperties.swift in Sources */,
+				849734C428ECE879009EE934 /* Photo+CoreDataClass.swift in Sources */,
+				849734C328ECE879009EE934 /* Owner+CoreDataClass.swift in Sources */,
 				84E665E428B76FCF002AE472 /* AffiCarApp.swift in Sources */,
+				849734C028ECE879009EE934 /* Photo+CoreDataProperties.swift in Sources */,
+				84DBF69B28BD0097006B91DC /* NoteImagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +436,12 @@
 				DEVELOPMENT_TEAM = 4R926QC5V9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Afficar will use photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,7 +453,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,9 +468,12 @@
 				DEVELOPMENT_TEAM = 4R926QC5V9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Afficar will use photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
